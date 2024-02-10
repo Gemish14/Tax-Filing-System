@@ -1,0 +1,23 @@
+<td class="style13">
+                    Contact</td>
+                <td class="style18">
+                    <asp:TextBox ID="TextBoxPHN" runat="server" MaxLength="10" TextMode="Number"></asp:TextBox>
+                    <br />
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" 
+                        ErrorMessage="Enter valid Number" ControlToValidate="TextBoxPHN" 
+                        Font-Bold="False" ForeColor="Red"></asp:RequiredFieldValidator>
+                </td>
+
+
+
+
+
+
+ /* SqlCommand cmd = new SqlCommand("insert into userinfo(username,password,name)values(@Username,@Password,@name)", cn);
+            cmd.Parameters.AddWithValue("@Username", tusername.Text);
+            cmd.Parameters.AddWithValue("@Password", tpassword.Text);
+            cmd.Parameters.AddWithValue("@name", tname.Text);
+            cn.Open();
+            cmd.ExecuteNonQuery(); 
+            cn.Close();
+            Label3.Text = "added successfully";*/
